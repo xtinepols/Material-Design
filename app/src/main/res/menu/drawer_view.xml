@@ -2,36 +2,32 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/navigationTB"
+            android:id="@+id/first_navigationTB"
             android:checked="true"
             android:title="Toolbar">
         </item>
         <item
-            android:id="@+id/fab"
+            android:id="@+id/second_fab"
             android:title="Floating Action Button">
         </item>
         <item
-            android:id="@+id/snackbar"
+            android:id="@+id/third_snackbar"
             android:title="Snackbar">
         </item>
         <item
-            android:id="@+id/tabs"
+            android:id="@+id/fourth_tabs"
             android:title="Tabs">
         </item>
         <item
-            android:id="@+id/coordinator"
-            android:title="Coordinator Layout">
-        </item>
-        <item
-            android:id="@+id/coordinatorFabSnackbar"
+            android:id="@+id/fifth_coordinatorFabSnackbar"
             android:title="CoordinatorLayout with FAB and Snackbar">
         </item>
         <item
-            android:id="@+id/coordinatorAppBarLayout"
+            android:id="@+id/sixth_coordinatorAppBarLayout"
             android:title="CoordinatoryLayout with AppBarLayout">
         </item>
         <item
-            android:id="@+id/collapsingToolbar"
+            android:id="@+id/seventh_collapsingToolbar"
             android:title="Collapsing Toolbar Layout">
         </item>
     </group>
